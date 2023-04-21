@@ -8,6 +8,7 @@ use App\Models\usuarios;
 
 class usuariosController extends Controller
 {
+
     public function getEmpleados(){
         $allEmpleados = usuarios::all();
         $data = array(

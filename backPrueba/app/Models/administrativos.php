@@ -10,4 +10,8 @@ class administrativos extends Model
     const UPDATED_AT = null;
     const CREATED_AT = null;
     protected $table = 'administrativos';
+
+    protected $hidden = [
+        'Contraseña',
+    ];
 }
